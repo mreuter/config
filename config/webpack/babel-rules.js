@@ -11,7 +11,7 @@ module.exports = function(env, baseDir) {
     loader: 'babel-loader',
     query: {
       plugins: [
-        'transform-react-jsx',
+        '@babel/transform-react-jsx',
         [
           'react-css-modules',
           {
